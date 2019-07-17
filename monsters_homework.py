@@ -1,8 +1,8 @@
 class Monster:
-    skills = []
 
-    def __init__(self, obj_name):
+    def __init__(self, obj_name, obj_skills = []):
         self.name = obj_name
+        self.skills = [obj_skills]
 
     def sleep(self):
         return "zzzzz"

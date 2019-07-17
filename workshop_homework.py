@@ -1,6 +1,6 @@
 class Workshop:
 
-    def __init__(self, obj_workshop_name, obj_teacher_name, obj_monster_attendees = [] ):
+    def __init__(self, obj_workshop_name, obj_teacher_name = " ", obj_monster_attendees = [] ):
         self.workshop_name = obj_workshop_name
         self.teacher = obj_teacher_name
         self.list_of_attendees = obj_monster_attendees
