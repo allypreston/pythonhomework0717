@@ -10,3 +10,5 @@ print(monster1.eat())
 
 print(monster1.skills)
 
+print(type(monster1))
+

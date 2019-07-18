@@ -15,3 +15,4 @@ print(workshop1.list_of_attendees)
 
 print(workshop1.workshop_name, ', ', workshop1.teacher, ', ', workshop1.list_of_attendees)
 print(workshop2.workshop_name, ', ', workshop2.teacher, ', ', workshop2.list_of_attendees)
+
